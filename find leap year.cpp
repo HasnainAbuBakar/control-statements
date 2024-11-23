@@ -2,12 +2,12 @@
 using namespace std;
 int main()
 {
-	int leap;
+	int year;
 	
-	cout<<"Enter days = ";
-	cin>>leap;
+	cout<<"Enter year = ";
+	cin>>year;
 	
-	if(leap>365)
+	if(year%4 ==0 && year%100!=0 || year%4 ==0)
 	{
 		cout<<"This is leap year";
 	}
